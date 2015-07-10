@@ -19,7 +19,7 @@
 AC_INIT(lcmaps-plugins-mount-under-scratch,0.0.4,bbockelm@cse.unl.edu)
 AC_PREREQ(2.57)
 AM_INIT_AUTOMAKE([1.9 no-define foreign])
-AC_CONFIG_MACRO_DIR([m4])
+#AC_CONFIG_MACRO_DIR([m4])
 
 AC_PROG_LIBTOOL
 AC_PROG_CC
