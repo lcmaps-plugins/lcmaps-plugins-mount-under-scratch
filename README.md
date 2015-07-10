@@ -3,7 +3,7 @@
 ![](https://api.travis-ci.org/lcmaps-plugins/lcmaps-plugins-mount-under-scratch.svg?branch=master)
 
 The "lcmaps-plugins-mount-under-scratch" plugin allows the admin to setup
-per-invocation copies of world-writable directories such as /tmp or /var/tmp.
+per-invocation copies of world-writable directories such as `/tmp` or `/var/tmp`.
 
 This plugin will create a temporary directory of the form:
 
