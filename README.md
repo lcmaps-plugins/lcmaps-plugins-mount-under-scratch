@@ -21,7 +21,7 @@ and subdirectories
 
 owned by the payload user.
 
-Further, /tmp will map to /tmp/glexec_mount_under_scratch_MuLdpO/tmp
+Further, `/tmp` will map to `/tmp/glexec_mount_under_scratch_MuLdpO/tmp`
 and /var/tmp will map to /tmp/glexec_mount_under_scratch_MuLdpO/var/tmp for
 the payload process (and *only* the payload process).
 
