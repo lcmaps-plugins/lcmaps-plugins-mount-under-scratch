@@ -1,16 +1,23 @@
+# lcmaps-plugins-mount-under-scratch
+
+![](https://api.travis-ci.org/lcmaps-plugins/lcmaps-plugins-mount-under-scratch.svg?branch=master)
 
 The "lcmaps-plugins-mount-under-scratch" plugin allows the admin to setup
 per-invocation copies of world-writable directories such as /tmp or /var/tmp.
 
 This plugin will create a temporary directory of the form:
 
+```
 /tmp/glexec_mount_under_scratch_XXXXXX
+```
 
 and subdirectories
 
+```
 /tmp/glexec_mount_under_scratch_MuLdpO:
     tmp/
     var/tmp
+```
 
 owned by the payload user.
 
@@ -25,10 +32,12 @@ remounted as private.
 The above paragraphs are similar for admin-defined directories.  The admin can
 pass:
 
+```
 -path /var/tmp
 -path /foo
 -path /bar
 -path /tmp
+```
 
 as arguments in lcmaps.db to the plugin to remap /var/tmp, /tmp, /foo, and
 /bar.  Note that order does matter!  As the source of the mount is in /tmp,
